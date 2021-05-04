@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    Hello World!
     <section id="welcome-section">
       <h1>Welcome to our html project.</h1>
+      <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        
+        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as img and input directly introduce content into the page. Other tags such as <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+        
+        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.</p>
     </section>
     <section id="projects">
-      <h2 class="project-tile"></h2>
-      <p class="project-tile"></p>
-      <a href="https://www.hackerrank.com/"></a>
-      <a href="https://www.google.com/"></a>
+      <div class="project-tile">
+        <h1>This is our html project</h1>
+      </div>
+      <p class="project-tile">
+        <h2>One way to use media queries is to have an alternate CSS section right inside your style sheet.
+
+          The following example changes the background-color to lightgreen if the viewport is 480 pixels wide or wider (if the viewport is less than 480 pixels, the background-color will be pink):</h2>
+      </p>
+      <a href=".project-tile"></a>
+      <a href=".project-tile"></a>
     </section>
-<!-- User Story #6: My portfolio should have a navbar with an id of navbar.
+
+    <nav id="navbar">
+      <a href="#welcome-section">link1</a>
+      <a href="#projects">link2</a>
+    </nav>
+    <!-- User Story #6: My portfolio should have a navbar with an id of navbar.
 
 User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
 
@@ -30,15 +45,10 @@ User Story #9: My portfolio should have at least one media query.
 User Story #10: The height of the welcome section should be equal to the height of the viewport.
 
 User Story #11: The navbar should always be at the top of the viewport. -->
-<nav id="navbar">
- <ol>
-  <li><a id="profile-link" target="_blank" href="github.com">link1</a></li>
-  <li><a href="google.com">link2</a></li>
-  <li><a href="youtube.com">link3</a></li>
-</ol>
-</nav>
 
-  
-    <script  src="js/index.js"></script>
+    <div><a id="profile-link" target="_blank" href="github.com">link1</a></div>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
